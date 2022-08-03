@@ -1,0 +1,56 @@
+#head{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#container{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(74, 170, 170);
+    border-radius: 20px;
+}
+
+#box1{
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.number{
+    height: 100%;
+    width: 90px;
+    background-color: darkcyan;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.number button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+    background-color: rgb(178, 216, 216);
+    color: darkcyan;
+    border: 1px solid darkcyan;
+}
+
+.number button:hover{
+    cursor: pointer;
+    background-color: rgb(168, 188, 188);
+}
+
+.number button:active {
+    background-color: rgb(168, 188, 188);
+    box-shadow: 0px rgb(168, 188, 188);
+    transform: translateY(2px);
+  }
+ 

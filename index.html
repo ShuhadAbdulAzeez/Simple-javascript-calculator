@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(17, 58, 58);">
+
+    <section id="head">
+        <div id="container">
+            <input style="height: 60px; width: 370px; margin-top: 10px; margin-left: 15px; border-radius: 15px; border: 1px solid darkcyan; pointer-events: none; font-size: 18px; color: darkcyan; font-family: 'Times New Roman', Times, serif;" type="text"  id="screen">
+            <div id="box1">
+                <div class="number 7">
+                    <button onclick="buttonclick(7)">7</button>
+                </div>
+                <div class="number 8">
+                    <button onclick="buttonclick(8)">8</button>
+                </div>
+                <div class="number 9">
+                    <button onclick="buttonclick(9)">9</button>
+                </div>
+                <div class="number *">
+                    <button onclick="buttonclick('*')">x</button>
+                </div>
+            </div>
+            <div id="box1">
+                <div class="number 7">
+                    <button onclick="buttonclick(4)">4</button>
+                </div>
+                <div class="number 8">
+                    <button onclick="buttonclick(5)">5</button>
+                </div>
+                <div class="number 9">
+                    <button onclick="buttonclick(6)">6</button>
+                </div>
+                <div class="number *">
+                    <button onclick="buttonclick('-')">-</button>
+                </div>
+            </div>
+            <div id="box1">
+                <div class="number 7">
+                    <button onclick="buttonclick(1)">1</button>
+                </div>
+                <div class="number 8">
+                    <button onclick="buttonclick(2)">2</button>
+                </div>
+                <div class="number 9">
+                    <button onclick="buttonclick(3)">3</button>
+                </div>
+                <div class="number *">
+                    <button onclick="buttonclick('+')">+</button>
+                </div>
+            </div>
+            <div id="box1">
+                <div class="number 7"> 
+                    <button onclick="buttonclick('/')">/</button>
+                </div>
+                <div class="number 8">
+                    <button onclick="buttonclick(0)">0</button>
+                </div>
+                <div class="number 9">
+                    <button onclick="buttonclick('.')">.</button>
+                </div>
+                <div class="number *">
+                    <button onclick="equalClick('=')">=</button>
+                </div>
+            </div>
+            <div id="box1">
+                <div class="number 7" >
+                    <button onclick="buttonclear()">Clear</button>
+                </div>
+            </div>
+            </div>
+
+            
+
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
